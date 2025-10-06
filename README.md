@@ -5,7 +5,7 @@ This repository contains the full codebase for reproducing the results presented
 **"A Universal Geometric Equation for Galaxy Rotation Curves Derived from Modified Einstein Dynamics"**  
 by Christopher P. B. Smolen
 
-## 🧠 Overview
+## Overview
 
 The `deltax_galaxy_engine` implements the ΔX relation — a geometric mapping between luminous structure and galaxy rotation dynamics — derived from a modified Einstein field equation incorporating information-geometry structure.
 
@@ -13,9 +13,9 @@ This engine evaluates the ΔX equation across the SPARC sample (175 late-type ga
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 📦 Installation
+### Installation
 
 ```bash
 git clone https://github.com/AXVIAM/deltax_galaxy_engine.git
@@ -28,7 +28,7 @@ Python 3.8+ is recommended.
 
 ---
 
-### 🛠 Usage
+### Usage
 
 To evaluate ΔX for the SPARC LTG sample:
 
@@ -126,12 +126,12 @@ deltax_galaxy_engine/
 ## 📄 Reproducibility
 
 A Zenodo snapshot of this repository is archived at:  
-📌 [DOI: https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)  
+[DOI: https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)  
 This ensures all results from the publication can be reproduced exactly.
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License — see [`LICENSE`](./LICENSE) for details.
 
