@@ -10,32 +10,23 @@ Submitted to *Monthly Notices of the Royal Astronomical Society*
 
 ## Overview
 
-This repository implements the **ΔX (Delta-X) mapping**, a **purely empirical, fixed-parameter relation** that links directly observed baryonic structure to the *shape* of galaxy rotation curves.
+This repository implements the **ΔX (Delta-X) mapping**, an empirical, fixed-parameter relation that links directly observed baryonic structure to the *shape* of galaxy rotation curves.
 
 The mapping predicts the dimensionless structural ratio
 
 ΔX(r) = V_obs(r) / V_lum(r)
 
-from three directly observed baryonic descriptors: mass buildup, geometric scale, and localized structural variation.
+from three directly observed baryonic descriptors: cumulative mass distribution, characteristic scale, and localized structural variation.
 
-**No dynamical theory is assumed.**  
-**No per-galaxy parameters are introduced.**  
-**All quantities are evaluated in native SPARC units, without normalization or rescaling.**
+When applied uniformly to all **175 late-type galaxies in the SPARC sample**, the ΔX mapping reproduces rotation-curve structure with high consistency using a **single global set of fixed exponents**, without per-galaxy tuning.
 
-When applied uniformly to all **175 late-type galaxies in the SPARC sample**, the ΔX mapping reproduces rotation-curve structure with high consistency using a **single global set of fixed exponents**.
-
-This repository provides the *exact code, numerical constants, and procedures* used in the manuscript, enabling full independent reproduction of all reported results.
+All quantities are evaluated in native SPARC units. This repository provides the exact code, numerical constants, and procedures used in the manuscript, enabling full independent reproduction of the reported results.
 
 ---
 
-## Scientific Scope (Important)
+## Scope and Use
 
-- The ΔX relation is **empirical**, not a theory of gravity.
-- The code does **not** implement dark-matter halos, MOND, or modified field equations.
-- The mapping is intended as a **quantitative structural benchmark** for galaxy dynamics.
-- Interpretation beyond empirical reproducibility lies outside the scope of the paper.
-
----
+The ΔX mapping is treated as an empirical structural relation. The code is intended to support reproducibility, benchmarking, and further empirical investigation of galaxy rotation-curve structure.
 
 ## Installation
 
